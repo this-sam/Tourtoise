@@ -12,6 +12,10 @@
 @implementation TtAppDelegate
 
 @synthesize window = _window;
+@synthesize tabBarController;
+
+@synthesize managedObjectContextManager;
+
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
@@ -23,21 +27,28 @@
 #pragma mark - Application Did Finish Launching
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
     
+        //not needed because loading from nib
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // Override point for customization after application launch.
+//    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = self.tabBarController;
+   
+//    coreDataViewController = [[CoreDataTestViewController alloc] initWithNibName:@"CoreDataTestViewController" bundle:nil];
+//    coreDataViewController.managedObjectContext = self.managedObjectContext;
+//    coreDataViewController.persistentStoreCoordinator = self.persistentStoreCoordinator;
+    
+    
+//    navController = [[UINavigationController alloc] init];
 //    
-    homeViewController = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
-    homeViewController.managedObjectContext = self.managedObjectContext;
-    homeViewController.persistentStoreCoordinator = self.persistentStoreCoordinator;
+////    
+//    [navController pushViewController:coreDataViewController animated:YES];
+//    [self.window addSubview:navController.view];
     
+    self.managedObjectContextManager = [[TtManagedObjectContextManager alloc] initWithContext:self.managedObjectContext];
     
-    navController = [[UINavigationController alloc] init];
-//    
-    [navController pushViewController:homeViewController animated:YES];
-    [self.window addSubview:navController.view];
-    
+
     [self.window makeKeyAndVisible];
     return YES;
 }

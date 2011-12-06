@@ -2,7 +2,7 @@
 //  Tour.m
 //  Tourtoise
 //
-//  Created by Austin Emmons on 12/5/11.
+//  Created by Austin Emmons on 12/6/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -15,6 +15,6 @@
 @dynamic authors;
 @dynamic tourDescription;
 @dynamic tourTitle;
-@dynamic relationship;
+@dynamic stop;
 
 @end

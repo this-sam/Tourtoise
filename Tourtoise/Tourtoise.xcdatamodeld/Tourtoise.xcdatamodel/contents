@@ -7,16 +7,16 @@
         <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="stopDescription" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="relationship" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Tour" inverseName="relationship" inverseEntity="Tour" syncable="YES"/>
+        <relationship name="inTour" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Tour" inverseName="stop" inverseEntity="Tour" syncable="YES"/>
     </entity>
     <entity name="Tour" representedClassName="Tour" syncable="YES">
         <attribute name="authors" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="tourDescription" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="tourTitle" optional="YES" attributeType="String" syncable="YES"/>
-        <relationship name="relationship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Stop" inverseName="relationship" inverseEntity="Stop" syncable="YES"/>
+        <relationship name="stop" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Stop" inverseName="inTour" inverseEntity="Stop" syncable="YES"/>
     </entity>
     <elements>
         <element name="Stop" positionX="160" positionY="192" width="128" height="150"/>
-        <element name="Tour" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Tour" positionX="-164" positionY="144" width="128" height="105"/>
     </elements>
 </model>

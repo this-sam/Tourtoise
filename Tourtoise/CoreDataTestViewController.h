@@ -12,7 +12,7 @@
 #import "Tour.h"
 #import "Stop.h"
 
-@interface HomeViewController : UIViewController <UITextFieldDelegate>
+@interface CoreDataTestViewController : UIViewController <UITextFieldDelegate>
 {
     NSManagedObjectContext  *managedObjectContext;
     NSPersistentStoreCoordinator    *persistentStoreCoordinator;

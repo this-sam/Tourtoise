@@ -7,25 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D98D8D2C148D3D65004A3C35 /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D8D2B148D3D65004A3C35 /* Stop.m */; };
-		D98D8D2F148D3D66004A3C35 /* Tour.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D8D2E148D3D66004A3C35 /* Tour.m */; };
+		D9216772148E97AB00345ECB /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = D9216771148E97AB00345ECB /* Stop.m */; };
+		D9216775148E97AC00345ECB /* Tour.m in Sources */ = {isa = PBXBuildFile; fileRef = D9216774148E97AC00345ECB /* Tour.m */; };
+		D984873F148DB304006C4630 /* CreateStopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9848736148DB304006C4630 /* CreateStopViewController.xib */; };
+		D9848740148DB304006C4630 /* CreateTourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9848737148DB304006C4630 /* CreateTourViewController.xib */; };
+		D9848741148DB304006C4630 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9848738148DB304006C4630 /* HomeViewController.xib */; };
+		D9848742148DB304006C4630 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9848739148DB304006C4630 /* MapViewController.xib */; };
+		D9848743148DB304006C4630 /* MyToursViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D984873A148DB304006C4630 /* MyToursViewController.xib */; };
+		D9848744148DB304006C4630 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D984873B148DB304006C4630 /* SearchViewController.xib */; };
+		D9848745148DB304006C4630 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D984873C148DB304006C4630 /* SettingsViewController.xib */; };
+		D9848746148DB304006C4630 /* StopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D984873D148DB304006C4630 /* StopViewController.xib */; };
+		D9848747148DB304006C4630 /* TourHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D984873E148DB304006C4630 /* TourHomeViewController.xib */; };
+		D984874C148DB328006C4630 /* CreateStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9848748148DB328006C4630 /* CreateStopViewController.m */; };
+		D984874D148DB328006C4630 /* CreateTourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9848749148DB328006C4630 /* CreateTourViewController.m */; };
+		D984874E148DB328006C4630 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984874A148DB328006C4630 /* HomeViewController.m */; };
+		D984874F148DB328006C4630 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984874B148DB328006C4630 /* ListViewController.m */; };
+		D9848751148DB330006C4630 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9848750148DB330006C4630 /* MapViewController.m */; };
+		D9848753148DB33E006C4630 /* MyToursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9848752148DB33E006C4630 /* MyToursViewController.m */; };
+		D9848755148DB346006C4630 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9848754148DB346006C4630 /* SearchViewController.m */; };
+		D9848757148DB34C006C4630 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9848756148DB34C006C4630 /* SettingsViewController.m */; };
+		D9848759148DB35A006C4630 /* StopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9848758148DB35A006C4630 /* StopViewController.m */; };
+		D984875B148DB360006C4630 /* TourHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D984875A148DB35F006C4630 /* TourHomeViewController.m */; };
+		D9848761148DBB66006C4630 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9848763148DBB66006C4630 /* MainWindow.xib */; };
+		D9848764148DBB6C006C4630 /* TtAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9848766148DBB6C006C4630 /* TtAppDelegate.m */; };
+		D984876B148DD126006C4630 /* TtManagedObjectContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D984876A148DD126006C4630 /* TtManagedObjectContextManager.m */; };
+		D9D18317148DA875007683DD /* ATE_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D18311148DA875007683DD /* ATE_camera.png */; };
+		D9D18318148DA875007683DD /* background_dots.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D18312148DA875007683DD /* background_dots.png */; };
+		D9D18319148DA875007683DD /* blue_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D18313148DA875007683DD /* blue_circle.png */; };
+		D9D1831A148DA875007683DD /* green_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D18314148DA875007683DD /* green_circle.png */; };
+		D9D1831B148DA875007683DD /* purple_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D18315148DA875007683DD /* purple_circle.png */; };
+		D9D1831C148DA875007683DD /* red_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = D9D18316148DA875007683DD /* red_circle.png */; };
+		D9D18327148DA8DB007683DD /* CategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D18320148DA8DB007683DD /* CategoryTableViewController.m */; };
+		D9D18328148DA8DB007683DD /* AgeRatingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D18322148DA8DB007683DD /* AgeRatingTableViewController.m */; };
+		D9D18329148DA8DB007683DD /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D18324148DA8DB007683DD /* Animator.m */; };
+		D9D1832A148DA8DB007683DD /* TourListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D18326148DA8DB007683DD /* TourListViewCell.m */; };
 		D9FC2902148C82DC0076A1B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FC2901148C82DC0076A1B1 /* UIKit.framework */; };
 		D9FC2904148C82DC0076A1B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FC2903148C82DC0076A1B1 /* Foundation.framework */; };
 		D9FC2906148C82DC0076A1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FC2905148C82DC0076A1B1 /* CoreGraphics.framework */; };
 		D9FC2908148C82DC0076A1B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FC2907148C82DC0076A1B1 /* CoreData.framework */; };
 		D9FC290E148C82DC0076A1B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9FC290C148C82DC0076A1B1 /* InfoPlist.strings */; };
 		D9FC2910148C82DC0076A1B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FC290F148C82DC0076A1B1 /* main.m */; };
-		D9FC2914148C82DC0076A1B1 /* TtAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FC2913148C82DC0076A1B1 /* TtAppDelegate.m */; };
 		D9FC2917148C82DC0076A1B1 /* Tourtoise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9FC2915148C82DC0076A1B1 /* Tourtoise.xcdatamodeld */; };
-		D9FC2920148C87DF0076A1B1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FC291E148C87DF0076A1B1 /* HomeViewController.m */; };
-		D9FC2921148C87DF0076A1B1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FC291F148C87DF0076A1B1 /* HomeViewController.xib */; };
+		D9FC2920148C87DF0076A1B1 /* CoreDataTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FC291E148C87DF0076A1B1 /* CoreDataTestViewController.m */; };
+		D9FC2921148C87DF0076A1B1 /* CoreDataTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FC291F148C87DF0076A1B1 /* CoreDataTestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D98D8D2A148D3D65004A3C35 /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
-		D98D8D2B148D3D65004A3C35 /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
-		D98D8D2D148D3D66004A3C35 /* Tour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tour.h; sourceTree = "<group>"; };
-		D98D8D2E148D3D66004A3C35 /* Tour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tour.m; sourceTree = "<group>"; };
+		D9216770148E97AB00345ECB /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
+		D9216771148E97AB00345ECB /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
+		D9216773148E97AC00345ECB /* Tour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tour.h; sourceTree = "<group>"; };
+		D9216774148E97AC00345ECB /* Tour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tour.m; sourceTree = "<group>"; };
+		D984872C148DB2B5006C4630 /* CreateStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateStopViewController.h; sourceTree = "<group>"; };
+		D984872D148DB2B5006C4630 /* CreateTourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateTourViewController.h; sourceTree = "<group>"; };
+		D984872E148DB2B5006C4630 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D984872F148DB2B5006C4630 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		D9848730148DB2B5006C4630 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D9848731148DB2B5006C4630 /* MyToursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyToursViewController.h; sourceTree = "<group>"; };
+		D9848732148DB2C2006C4630 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		D9848733148DB2E4006C4630 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D9848734148DB2EC006C4630 /* StopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopViewController.h; sourceTree = "<group>"; };
+		D9848735148DB2F4006C4630 /* TourHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourHomeViewController.h; sourceTree = "<group>"; };
+		D9848736148DB304006C4630 /* CreateStopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateStopViewController.xib; sourceTree = "<group>"; };
+		D9848737148DB304006C4630 /* CreateTourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateTourViewController.xib; sourceTree = "<group>"; };
+		D9848738148DB304006C4630 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		D9848739148DB304006C4630 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		D984873A148DB304006C4630 /* MyToursViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyToursViewController.xib; sourceTree = "<group>"; };
+		D984873B148DB304006C4630 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		D984873C148DB304006C4630 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		D984873D148DB304006C4630 /* StopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StopViewController.xib; sourceTree = "<group>"; };
+		D984873E148DB304006C4630 /* TourHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TourHomeViewController.xib; sourceTree = "<group>"; };
+		D9848748148DB328006C4630 /* CreateStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateStopViewController.m; sourceTree = "<group>"; };
+		D9848749148DB328006C4630 /* CreateTourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateTourViewController.m; sourceTree = "<group>"; };
+		D984874A148DB328006C4630 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D984874B148DB328006C4630 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		D9848750148DB330006C4630 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D9848752148DB33E006C4630 /* MyToursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyToursViewController.m; sourceTree = "<group>"; };
+		D9848754148DB346006C4630 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		D9848756148DB34C006C4630 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		D9848758148DB35A006C4630 /* StopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopViewController.m; sourceTree = "<group>"; };
+		D984875A148DB35F006C4630 /* TourHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourHomeViewController.m; sourceTree = "<group>"; };
+		D9848762148DBB66006C4630 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D9848765148DBB6C006C4630 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/TtAppDelegate.m; sourceTree = "<group>"; };
+		D9848767148DBB6F006C4630 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/TtAppDelegate.h; sourceTree = "<group>"; };
+		D9848769148DD126006C4630 /* TtManagedObjectContextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TtManagedObjectContextManager.h; sourceTree = "<group>"; };
+		D984876A148DD126006C4630 /* TtManagedObjectContextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TtManagedObjectContextManager.m; sourceTree = "<group>"; };
+		D9D18311148DA875007683DD /* ATE_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ATE_camera.png; sourceTree = "<group>"; };
+		D9D18312148DA875007683DD /* background_dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_dots.png; sourceTree = "<group>"; };
+		D9D18313148DA875007683DD /* blue_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_circle.png; sourceTree = "<group>"; };
+		D9D18314148DA875007683DD /* green_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_circle.png; sourceTree = "<group>"; };
+		D9D18315148DA875007683DD /* purple_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple_circle.png; sourceTree = "<group>"; };
+		D9D18316148DA875007683DD /* red_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_circle.png; sourceTree = "<group>"; };
+		D9D1831F148DA8DB007683DD /* CategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryTableViewController.h; sourceTree = "<group>"; };
+		D9D18320148DA8DB007683DD /* CategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryTableViewController.m; sourceTree = "<group>"; };
+		D9D18321148DA8DB007683DD /* AgeRatingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeRatingTableViewController.h; sourceTree = "<group>"; };
+		D9D18322148DA8DB007683DD /* AgeRatingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgeRatingTableViewController.m; sourceTree = "<group>"; };
+		D9D18323148DA8DB007683DD /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		D9D18324148DA8DB007683DD /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
+		D9D18325148DA8DB007683DD /* TourListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourListViewCell.h; sourceTree = "<group>"; };
+		D9D18326148DA8DB007683DD /* TourListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourListViewCell.m; sourceTree = "<group>"; };
 		D9FC28FD148C82DC0076A1B1 /* Tourtoise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourtoise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FC2901148C82DC0076A1B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9FC2903148C82DC0076A1B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,12 +114,10 @@
 		D9FC290D148C82DC0076A1B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9FC290F148C82DC0076A1B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9FC2911148C82DC0076A1B1 /* Tourtoise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tourtoise-Prefix.pch"; sourceTree = "<group>"; };
-		D9FC2912148C82DC0076A1B1 /* TtAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TtAppDelegate.h; sourceTree = "<group>"; };
-		D9FC2913148C82DC0076A1B1 /* TtAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TtAppDelegate.m; sourceTree = "<group>"; };
 		D9FC2916148C82DC0076A1B1 /* Tourtoise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tourtoise.xcdatamodel; sourceTree = "<group>"; };
-		D9FC291D148C87DF0076A1B1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		D9FC291E148C87DF0076A1B1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		D9FC291F148C87DF0076A1B1 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		D9FC291D148C87DF0076A1B1 /* CoreDataTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTestViewController.h; sourceTree = "<group>"; };
+		D9FC291E148C87DF0076A1B1 /* CoreDataTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTestViewController.m; sourceTree = "<group>"; };
+		D9FC291F148C87DF0076A1B1 /* CoreDataTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreDataTestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,12 +135,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9721D24148DA9A100576422 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D9D18323148DA8DB007683DD /* Animator.h */,
+				D9D18324148DA8DB007683DD /* Animator.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		D9D1831E148DA87D007683DD /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				D9D18311148DA875007683DD /* ATE_camera.png */,
+				D9D18312148DA875007683DD /* background_dots.png */,
+				D9D18313148DA875007683DD /* blue_circle.png */,
+				D9D18314148DA875007683DD /* green_circle.png */,
+				D9D18315148DA875007683DD /* purple_circle.png */,
+				D9D18316148DA875007683DD /* red_circle.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		D9D1832B148DA94C007683DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9D1831F148DA8DB007683DD /* CategoryTableViewController.h */,
+				D9D18320148DA8DB007683DD /* CategoryTableViewController.m */,
+				D9D18321148DA8DB007683DD /* AgeRatingTableViewController.h */,
+				D9D18322148DA8DB007683DD /* AgeRatingTableViewController.m */,
+				D9721D24148DA9A100576422 /* Animation */,
+				D9D18325148DA8DB007683DD /* TourListViewCell.h */,
+				D9D18326148DA8DB007683DD /* TourListViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		D9FC28F2148C82DB0076A1B1 = {
 			isa = PBXGroup;
 			children = (
 				D9FC2909148C82DC0076A1B1 /* Tourtoise */,
 				D9FC2900148C82DC0076A1B1 /* Frameworks */,
 				D9FC28FE148C82DC0076A1B1 /* Products */,
+				D9848736148DB304006C4630 /* CreateStopViewController.xib */,
+				D9848737148DB304006C4630 /* CreateTourViewController.xib */,
+				D9848738148DB304006C4630 /* HomeViewController.xib */,
+				D9848739148DB304006C4630 /* MapViewController.xib */,
+				D984873A148DB304006C4630 /* MyToursViewController.xib */,
+				D984873B148DB304006C4630 /* SearchViewController.xib */,
+				D984873C148DB304006C4630 /* SettingsViewController.xib */,
+				D984873D148DB304006C4630 /* StopViewController.xib */,
+				D984873E148DB304006C4630 /* TourHomeViewController.xib */,
+				D9848748148DB328006C4630 /* CreateStopViewController.m */,
+				D9848749148DB328006C4630 /* CreateTourViewController.m */,
+				D984874A148DB328006C4630 /* HomeViewController.m */,
+				D984874B148DB328006C4630 /* ListViewController.m */,
+				D9848750148DB330006C4630 /* MapViewController.m */,
+				D9848752148DB33E006C4630 /* MyToursViewController.m */,
+				D9848754148DB346006C4630 /* SearchViewController.m */,
+				D9848756148DB34C006C4630 /* SettingsViewController.m */,
+				D9848758148DB35A006C4630 /* StopViewController.m */,
+				D984875A148DB35F006C4630 /* TourHomeViewController.m */,
+				D984872C148DB2B5006C4630 /* CreateStopViewController.h */,
+				D984872D148DB2B5006C4630 /* CreateTourViewController.h */,
+				D984872E148DB2B5006C4630 /* HomeViewController.h */,
+				D984872F148DB2B5006C4630 /* ListViewController.h */,
+				D9848730148DB2B5006C4630 /* MapViewController.h */,
+				D9848731148DB2B5006C4630 /* MyToursViewController.h */,
+				D9848732148DB2C2006C4630 /* SearchViewController.h */,
+				D9848733148DB2E4006C4630 /* SettingsViewController.h */,
+				D9848734148DB2EC006C4630 /* StopViewController.h */,
+				D9848735148DB2F4006C4630 /* TourHomeViewController.h */,
+				D9D1832B148DA94C007683DD /* View */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,16 +232,19 @@
 		D9FC2909148C82DC0076A1B1 /* Tourtoise */ = {
 			isa = PBXGroup;
 			children = (
-				D9FC2912148C82DC0076A1B1 /* TtAppDelegate.h */,
-				D9FC2913148C82DC0076A1B1 /* TtAppDelegate.m */,
-				D9FC291D148C87DF0076A1B1 /* HomeViewController.h */,
-				D9FC291E148C87DF0076A1B1 /* HomeViewController.m */,
-				D9FC291F148C87DF0076A1B1 /* HomeViewController.xib */,
+				D9848768148DBB6F006C4630 /* TtAppDelegate.h */,
+				D9848766148DBB6C006C4630 /* TtAppDelegate.m */,
+				D9848763148DBB66006C4630 /* MainWindow.xib */,
+				D9FC291D148C87DF0076A1B1 /* CoreDataTestViewController.h */,
+				D9FC291E148C87DF0076A1B1 /* CoreDataTestViewController.m */,
+				D9FC291F148C87DF0076A1B1 /* CoreDataTestViewController.xib */,
 				D9FC2915148C82DC0076A1B1 /* Tourtoise.xcdatamodeld */,
-				D98D8D2D148D3D66004A3C35 /* Tour.h */,
-				D98D8D2E148D3D66004A3C35 /* Tour.m */,
-				D98D8D2A148D3D65004A3C35 /* Stop.h */,
-				D98D8D2B148D3D65004A3C35 /* Stop.m */,
+				D9216773148E97AC00345ECB /* Tour.h */,
+				D9216774148E97AC00345ECB /* Tour.m */,
+				D9216770148E97AB00345ECB /* Stop.h */,
+				D9216771148E97AB00345ECB /* Stop.m */,
+				D9848769148DD126006C4630 /* TtManagedObjectContextManager.h */,
+				D984876A148DD126006C4630 /* TtManagedObjectContextManager.m */,
 				D9FC290A148C82DC0076A1B1 /* Supporting Files */,
 			);
 			path = Tourtoise;
@@ -107,6 +253,7 @@
 		D9FC290A148C82DC0076A1B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D9D1831E148DA87D007683DD /* Media */,
 				D9FC290B148C82DC0076A1B1 /* Tourtoise-Info.plist */,
 				D9FC290C148C82DC0076A1B1 /* InfoPlist.strings */,
 				D9FC290F148C82DC0076A1B1 /* main.m */,
@@ -166,7 +313,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9FC290E148C82DC0076A1B1 /* InfoPlist.strings in Resources */,
-				D9FC2921148C87DF0076A1B1 /* HomeViewController.xib in Resources */,
+				D9FC2921148C87DF0076A1B1 /* CoreDataTestViewController.xib in Resources */,
+				D9D18317148DA875007683DD /* ATE_camera.png in Resources */,
+				D9D18318148DA875007683DD /* background_dots.png in Resources */,
+				D9D18319148DA875007683DD /* blue_circle.png in Resources */,
+				D9D1831A148DA875007683DD /* green_circle.png in Resources */,
+				D9D1831B148DA875007683DD /* purple_circle.png in Resources */,
+				D9D1831C148DA875007683DD /* red_circle.png in Resources */,
+				D984873F148DB304006C4630 /* CreateStopViewController.xib in Resources */,
+				D9848740148DB304006C4630 /* CreateTourViewController.xib in Resources */,
+				D9848741148DB304006C4630 /* HomeViewController.xib in Resources */,
+				D9848742148DB304006C4630 /* MapViewController.xib in Resources */,
+				D9848743148DB304006C4630 /* MyToursViewController.xib in Resources */,
+				D9848744148DB304006C4630 /* SearchViewController.xib in Resources */,
+				D9848745148DB304006C4630 /* SettingsViewController.xib in Resources */,
+				D9848746148DB304006C4630 /* StopViewController.xib in Resources */,
+				D9848747148DB304006C4630 /* TourHomeViewController.xib in Resources */,
+				D9848761148DBB66006C4630 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,17 +341,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9FC2910148C82DC0076A1B1 /* main.m in Sources */,
-				D9FC2914148C82DC0076A1B1 /* TtAppDelegate.m in Sources */,
+				D9848764148DBB6C006C4630 /* TtAppDelegate.m in Sources */,
 				D9FC2917148C82DC0076A1B1 /* Tourtoise.xcdatamodeld in Sources */,
-				D9FC2920148C87DF0076A1B1 /* HomeViewController.m in Sources */,
-				D98D8D2C148D3D65004A3C35 /* Stop.m in Sources */,
-				D98D8D2F148D3D66004A3C35 /* Tour.m in Sources */,
+				D9FC2920148C87DF0076A1B1 /* CoreDataTestViewController.m in Sources */,
+				D9D18327148DA8DB007683DD /* CategoryTableViewController.m in Sources */,
+				D9D18328148DA8DB007683DD /* AgeRatingTableViewController.m in Sources */,
+				D9D18329148DA8DB007683DD /* Animator.m in Sources */,
+				D9D1832A148DA8DB007683DD /* TourListViewCell.m in Sources */,
+				D984874C148DB328006C4630 /* CreateStopViewController.m in Sources */,
+				D984874D148DB328006C4630 /* CreateTourViewController.m in Sources */,
+				D984874E148DB328006C4630 /* HomeViewController.m in Sources */,
+				D984874F148DB328006C4630 /* ListViewController.m in Sources */,
+				D9848751148DB330006C4630 /* MapViewController.m in Sources */,
+				D9848753148DB33E006C4630 /* MyToursViewController.m in Sources */,
+				D9848755148DB346006C4630 /* SearchViewController.m in Sources */,
+				D9848757148DB34C006C4630 /* SettingsViewController.m in Sources */,
+				D9848759148DB35A006C4630 /* StopViewController.m in Sources */,
+				D984875B148DB360006C4630 /* TourHomeViewController.m in Sources */,
+				D984876B148DD126006C4630 /* TtManagedObjectContextManager.m in Sources */,
+				D9216772148E97AB00345ECB /* Stop.m in Sources */,
+				D9216775148E97AC00345ECB /* Tour.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D9848763148DBB66006C4630 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9848762148DBB66006C4630 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D9848766148DBB6C006C4630 /* TtAppDelegate.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9848765148DBB6C006C4630 /* en */,
+			);
+			name = TtAppDelegate.m;
+			sourceTree = "<group>";
+		};
+		D9848768148DBB6F006C4630 /* TtAppDelegate.h */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9848767148DBB6F006C4630 /* en */,
+			);
+			name = TtAppDelegate.h;
+			sourceTree = "<group>";
+		};
 		D9FC290C148C82DC0076A1B1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

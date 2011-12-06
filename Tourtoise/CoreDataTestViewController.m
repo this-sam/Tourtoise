@@ -6,9 +6,9 @@
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "CoreDataTestViewController.h"
 
-@implementation HomeViewController
+@implementation CoreDataTestViewController
 
 @synthesize managedObjectContext;
 @synthesize persistentStoreCoordinator;
