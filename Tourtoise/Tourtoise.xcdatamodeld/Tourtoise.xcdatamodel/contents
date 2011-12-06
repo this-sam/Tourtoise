@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="10K549" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Stop" representedClassName="Stop" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stopDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Tour" inverseName="relationship" inverseEntity="Tour" syncable="YES"/>
+    </entity>
+    <entity name="Tour" representedClassName="Tour" syncable="YES">
+        <attribute name="authors" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tourDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tourTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Stop" inverseName="relationship" inverseEntity="Stop" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Stop" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="Tour" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
+</model>

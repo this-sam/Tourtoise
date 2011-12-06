@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D98D8D2C148D3D65004A3C35 /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D8D2B148D3D65004A3C35 /* Stop.m */; };
+		D98D8D2F148D3D66004A3C35 /* Tour.m in Sources */ = {isa = PBXBuildFile; fileRef = D98D8D2E148D3D66004A3C35 /* Tour.m */; };
+		D9FC2902148C82DC0076A1B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FC2901148C82DC0076A1B1 /* UIKit.framework */; };
+		D9FC2904148C82DC0076A1B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FC2903148C82DC0076A1B1 /* Foundation.framework */; };
+		D9FC2906148C82DC0076A1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FC2905148C82DC0076A1B1 /* CoreGraphics.framework */; };
+		D9FC2908148C82DC0076A1B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FC2907148C82DC0076A1B1 /* CoreData.framework */; };
+		D9FC290E148C82DC0076A1B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9FC290C148C82DC0076A1B1 /* InfoPlist.strings */; };
+		D9FC2910148C82DC0076A1B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FC290F148C82DC0076A1B1 /* main.m */; };
+		D9FC2914148C82DC0076A1B1 /* TtAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FC2913148C82DC0076A1B1 /* TtAppDelegate.m */; };
+		D9FC2917148C82DC0076A1B1 /* Tourtoise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9FC2915148C82DC0076A1B1 /* Tourtoise.xcdatamodeld */; };
+		D9FC2920148C87DF0076A1B1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FC291E148C87DF0076A1B1 /* HomeViewController.m */; };
+		D9FC2921148C87DF0076A1B1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9FC291F148C87DF0076A1B1 /* HomeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D98D8D2A148D3D65004A3C35 /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
+		D98D8D2B148D3D65004A3C35 /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
+		D98D8D2D148D3D66004A3C35 /* Tour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tour.h; sourceTree = "<group>"; };
+		D98D8D2E148D3D66004A3C35 /* Tour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tour.m; sourceTree = "<group>"; };
+		D9FC28FD148C82DC0076A1B1 /* Tourtoise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourtoise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FC2901148C82DC0076A1B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9FC2903148C82DC0076A1B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9FC2905148C82DC0076A1B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9FC2907148C82DC0076A1B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9FC290B148C82DC0076A1B1 /* Tourtoise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tourtoise-Info.plist"; sourceTree = "<group>"; };
+		D9FC290D148C82DC0076A1B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9FC290F148C82DC0076A1B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9FC2911148C82DC0076A1B1 /* Tourtoise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tourtoise-Prefix.pch"; sourceTree = "<group>"; };
+		D9FC2912148C82DC0076A1B1 /* TtAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TtAppDelegate.h; sourceTree = "<group>"; };
+		D9FC2913148C82DC0076A1B1 /* TtAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TtAppDelegate.m; sourceTree = "<group>"; };
+		D9FC2916148C82DC0076A1B1 /* Tourtoise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tourtoise.xcdatamodel; sourceTree = "<group>"; };
+		D9FC291D148C87DF0076A1B1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D9FC291E148C87DF0076A1B1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D9FC291F148C87DF0076A1B1 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9FC28FA148C82DC0076A1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FC2902148C82DC0076A1B1 /* UIKit.framework in Frameworks */,
+				D9FC2904148C82DC0076A1B1 /* Foundation.framework in Frameworks */,
+				D9FC2906148C82DC0076A1B1 /* CoreGraphics.framework in Frameworks */,
+				D9FC2908148C82DC0076A1B1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9FC28F2148C82DB0076A1B1 = {
+			isa = PBXGroup;
+			children = (
+				D9FC2909148C82DC0076A1B1 /* Tourtoise */,
+				D9FC2900148C82DC0076A1B1 /* Frameworks */,
+				D9FC28FE148C82DC0076A1B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9FC28FE148C82DC0076A1B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9FC28FD148C82DC0076A1B1 /* Tourtoise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9FC2900148C82DC0076A1B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9FC2901148C82DC0076A1B1 /* UIKit.framework */,
+				D9FC2903148C82DC0076A1B1 /* Foundation.framework */,
+				D9FC2905148C82DC0076A1B1 /* CoreGraphics.framework */,
+				D9FC2907148C82DC0076A1B1 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9FC2909148C82DC0076A1B1 /* Tourtoise */ = {
+			isa = PBXGroup;
+			children = (
+				D9FC2912148C82DC0076A1B1 /* TtAppDelegate.h */,
+				D9FC2913148C82DC0076A1B1 /* TtAppDelegate.m */,
+				D9FC291D148C87DF0076A1B1 /* HomeViewController.h */,
+				D9FC291E148C87DF0076A1B1 /* HomeViewController.m */,
+				D9FC291F148C87DF0076A1B1 /* HomeViewController.xib */,
+				D9FC2915148C82DC0076A1B1 /* Tourtoise.xcdatamodeld */,
+				D98D8D2D148D3D66004A3C35 /* Tour.h */,
+				D98D8D2E148D3D66004A3C35 /* Tour.m */,
+				D98D8D2A148D3D65004A3C35 /* Stop.h */,
+				D98D8D2B148D3D65004A3C35 /* Stop.m */,
+				D9FC290A148C82DC0076A1B1 /* Supporting Files */,
+			);
+			path = Tourtoise;
+			sourceTree = "<group>";
+		};
+		D9FC290A148C82DC0076A1B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FC290B148C82DC0076A1B1 /* Tourtoise-Info.plist */,
+				D9FC290C148C82DC0076A1B1 /* InfoPlist.strings */,
+				D9FC290F148C82DC0076A1B1 /* main.m */,
+				D9FC2911148C82DC0076A1B1 /* Tourtoise-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9FC28FC148C82DC0076A1B1 /* Tourtoise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9FC291A148C82DC0076A1B1 /* Build configuration list for PBXNativeTarget "Tourtoise" */;
+			buildPhases = (
+				D9FC28F9148C82DC0076A1B1 /* Sources */,
+				D9FC28FA148C82DC0076A1B1 /* Frameworks */,
+				D9FC28FB148C82DC0076A1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tourtoise;
+			productName = Tourtoise;
+			productReference = D9FC28FD148C82DC0076A1B1 /* Tourtoise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9FC28F4148C82DB0076A1B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D9FC28F7148C82DB0076A1B1 /* Build configuration list for PBXProject "Tourtoise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9FC28F2148C82DB0076A1B1;
+			productRefGroup = D9FC28FE148C82DC0076A1B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9FC28FC148C82DC0076A1B1 /* Tourtoise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9FC28FB148C82DC0076A1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FC290E148C82DC0076A1B1 /* InfoPlist.strings in Resources */,
+				D9FC2921148C87DF0076A1B1 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9FC28F9148C82DC0076A1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FC2910148C82DC0076A1B1 /* main.m in Sources */,
+				D9FC2914148C82DC0076A1B1 /* TtAppDelegate.m in Sources */,
+				D9FC2917148C82DC0076A1B1 /* Tourtoise.xcdatamodeld in Sources */,
+				D9FC2920148C87DF0076A1B1 /* HomeViewController.m in Sources */,
+				D98D8D2C148D3D65004A3C35 /* Stop.m in Sources */,
+				D98D8D2F148D3D66004A3C35 /* Tour.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9FC290C148C82DC0076A1B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9FC290D148C82DC0076A1B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9FC2918148C82DC0076A1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9FC2919148C82DC0076A1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9FC291B148C82DC0076A1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tourtoise/Tourtoise-Prefix.pch";
+				INFOPLIST_FILE = "Tourtoise/Tourtoise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9FC291C148C82DC0076A1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tourtoise/Tourtoise-Prefix.pch";
+				INFOPLIST_FILE = "Tourtoise/Tourtoise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9FC28F7148C82DB0076A1B1 /* Build configuration list for PBXProject "Tourtoise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FC2918148C82DC0076A1B1 /* Debug */,
+				D9FC2919148C82DC0076A1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9FC291A148C82DC0076A1B1 /* Build configuration list for PBXNativeTarget "Tourtoise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9FC291B148C82DC0076A1B1 /* Debug */,
+				D9FC291C148C82DC0076A1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9FC2915148C82DC0076A1B1 /* Tourtoise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9FC2916148C82DC0076A1B1 /* Tourtoise.xcdatamodel */,
+			);
+			currentVersion = D9FC2916148C82DC0076A1B1 /* Tourtoise.xcdatamodel */;
+			path = Tourtoise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9FC28F4148C82DB0076A1B1 /* Project object */;
+}
