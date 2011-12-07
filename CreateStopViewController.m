@@ -141,7 +141,7 @@
 
 -(void) swipeLeft:(UISwipeGestureRecognizer *) recognizer
 {
-    if (recognizer.state == UIGestureRecognizerStateRecognized && currentPage < 4){
+    if ((currentPage < 3) && recognizer.state == UIGestureRecognizerStateRecognized){
         currentPage++;
         pageControl.currentPage = currentPage;
         NSLog(@"Current Page :: %i ", currentPage);
