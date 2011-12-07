@@ -1,0 +1,118 @@
+// !$*UTF8*$!
+{
+	22771C4F148EA2A600D855A6 /* Tourtoise */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Tourtoise;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	22771C60148EA2AE00D855A6 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	22771C61148EA2AE00D855A6 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	22771C68148EA50F00D855A6 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Unknown property attribute 'strong'";
+		fRef = D9848767148DBB6F006C4630 /* en */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 22;
+		rType = 1;
+	};
+	22771C6A148EA50F00D855A6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D9848767148DBB6F006C4630 /* en */;
+		name = "TtAppDelegate.h: 23";
+		rLen = 0;
+		rLoc = 547;
+		rType = 0;
+		vrLen = 1126;
+		vrLoc = 0;
+	};
+	D9848767148DBB6F006C4630 /* en */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 507}}";
+			sepNavSelRange = "{547, 0}";
+			sepNavVisRange = "{628, 450}";
+		};
+	};
+	D9FC28F4148C82DB0076A1B1 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 22771C4F148EA2A600D855A6 /* Tourtoise */;
+		activeTarget = D9FC28FC148C82DC0076A1B1 /* Tourtoise */;
+		codeSenseManager = 22771C61148EA2AE00D855A6 /* Code sense */;
+		executables = (
+			22771C4F148EA2A600D855A6 /* Tourtoise */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 344892070;
+			PBXWorkspaceStateSaveDate = 344892070;
+		};
+		perUserProjectItems = {
+			22771C68148EA50F00D855A6 /* XCBuildMessageTextBookmark */ = 22771C68148EA50F00D855A6 /* XCBuildMessageTextBookmark */;
+			22771C6A148EA50F00D855A6 /* PBXTextBookmark */ = 22771C6A148EA50F00D855A6 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 22771C60148EA2AE00D855A6 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D9FC28FC148C82DC0076A1B1 /* Tourtoise */ = {
+		activeExec = 0;
+		executables = (
+			22771C4F148EA2A600D855A6 /* Tourtoise */,
+		);
+	};
+}
