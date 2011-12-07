@@ -141,8 +141,9 @@
 
 -(void) swipeLeft:(UISwipeGestureRecognizer *) recognizer
 {
-    if (recognizer.state == UIGestureRecognizerStateRecognized){
+    if (recognizer.state == UIGestureRecognizerStateRecognized && currentPage < 4){
         currentPage++;
+        pageControl.currentPage = currentPage;
         NSLog(@"Current Page :: %i ", currentPage);
         if (currentPage == 3) {      //    remember progress views index 0,1,2,3,...
             //[self showStopPreview];
@@ -155,8 +156,9 @@
 
 -(void) swipeRight:(UISwipeGestureRecognizer *) recognizer
 {
-    if (recognizer.state == UIGestureRecognizerStateRecognized){
+    if (recognizer.state == UIGestureRecognizerStateRecognized && currentPage > 0){
         currentPage--;
+        pageControl.currentPage = currentPage;
         NSLog(@"Current Page :: %i ", currentPage);
         
         [Animator horizontalShift:contentView distance:self.view.bounds.size.width];

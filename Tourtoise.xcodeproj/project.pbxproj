@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220F33EA148EFCA9007745F0 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33D4148EFCA9007745F0 /* home.png */; };
+		220F33EB148EFCA9007745F0 /* my-tours.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33D5148EFCA9007745F0 /* my-tours.png */; };
+		220F33EC148EFCA9007745F0 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33D6148EFCA9007745F0 /* search.png */; };
+		220F33ED148EFCA9007745F0 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33D7148EFCA9007745F0 /* settings.png */; };
+		220F33EE148EFCA9007745F0 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33D9148EFCA9007745F0 /* camera.png */; };
+		220F33EF148EFCA9007745F0 /* mic.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33DA148EFCA9007745F0 /* mic.png */; };
+		220F33F0148EFCA9007745F0 /* create-tour.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33DB148EFCA9007745F0 /* create-tour.png */; };
+		220F33F1148EFCA9007745F0 /* current-stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33DC148EFCA9007745F0 /* current-stop.png */; };
+		220F33F2148EFCA9007745F0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33DD148EFCA9007745F0 /* Default.png */; };
+		220F33F3148EFCA9007745F0 /* headerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33DE148EFCA9007745F0 /* headerIcon.png */; };
+		220F33F4148EFCA9007745F0 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33E0148EFCA9007745F0 /* add.png */; };
+		220F33F5148EFCA9007745F0 /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33E1148EFCA9007745F0 /* arrow-down.png */; };
+		220F33F6148EFCA9007745F0 /* arrow-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33E2148EFCA9007745F0 /* arrow-up.png */; };
+		220F33F7148EFCA9007745F0 /* check-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33E3148EFCA9007745F0 /* check-dark.png */; };
+		220F33F8148EFCA9007745F0 /* check-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33E4148EFCA9007745F0 /* check-green.png */; };
+		220F33F9148EFCA9007745F0 /* x-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33E5148EFCA9007745F0 /* x-dark.png */; };
+		220F33FA148EFCA9007745F0 /* x-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33E6148EFCA9007745F0 /* x-red.png */; };
+		220F33FB148EFCA9007745F0 /* ListControl-MediaButtons.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33E7148EFCA9007745F0 /* ListControl-MediaButtons.png */; };
+		220F33FC148EFCA9007745F0 /* new-stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33E8148EFCA9007745F0 /* new-stop.png */; };
+		220F33FD148EFCA9007745F0 /* tour-store.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F33E9148EFCA9007745F0 /* tour-store.png */; };
 		D9216772148E97AB00345ECB /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = D9216771148E97AB00345ECB /* Stop.m */; };
 		D9216775148E97AC00345ECB /* Tour.m in Sources */ = {isa = PBXBuildFile; fileRef = D9216774148E97AC00345ECB /* Tour.m */; };
 		D984873F148DB304006C4630 /* CreateStopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9848736148DB304006C4630 /* CreateStopViewController.xib */; };
@@ -53,6 +73,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220F33D4148EFCA9007745F0 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		220F33D5148EFCA9007745F0 /* my-tours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my-tours.png"; sourceTree = "<group>"; };
+		220F33D6148EFCA9007745F0 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		220F33D7148EFCA9007745F0 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		220F33D9148EFCA9007745F0 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		220F33DA148EFCA9007745F0 /* mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic.png; sourceTree = "<group>"; };
+		220F33DB148EFCA9007745F0 /* create-tour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create-tour.png"; sourceTree = "<group>"; };
+		220F33DC148EFCA9007745F0 /* current-stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "current-stop.png"; sourceTree = "<group>"; };
+		220F33DD148EFCA9007745F0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		220F33DE148EFCA9007745F0 /* headerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headerIcon.png; sourceTree = "<group>"; };
+		220F33E0148EFCA9007745F0 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		220F33E1148EFCA9007745F0 /* arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down.png"; sourceTree = "<group>"; };
+		220F33E2148EFCA9007745F0 /* arrow-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up.png"; sourceTree = "<group>"; };
+		220F33E3148EFCA9007745F0 /* check-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-dark.png"; sourceTree = "<group>"; };
+		220F33E4148EFCA9007745F0 /* check-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-green.png"; sourceTree = "<group>"; };
+		220F33E5148EFCA9007745F0 /* x-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-dark.png"; sourceTree = "<group>"; };
+		220F33E6148EFCA9007745F0 /* x-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-red.png"; sourceTree = "<group>"; };
+		220F33E7148EFCA9007745F0 /* ListControl-MediaButtons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ListControl-MediaButtons.png"; sourceTree = "<group>"; };
+		220F33E8148EFCA9007745F0 /* new-stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-stop.png"; sourceTree = "<group>"; };
+		220F33E9148EFCA9007745F0 /* tour-store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tour-store.png"; sourceTree = "<group>"; };
 		D9216770148E97AB00345ECB /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stop.h; sourceTree = "<group>"; };
 		D9216771148E97AB00345ECB /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stop.m; sourceTree = "<group>"; };
 		D9216773148E97AC00345ECB /* Tour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tour.h; sourceTree = "<group>"; };
@@ -135,6 +175,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220F33D2148EFCA9007745F0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				220F33D3148EFCA9007745F0 /* bottom */,
+				220F33D8148EFCA9007745F0 /* camera-mic */,
+				220F33DB148EFCA9007745F0 /* create-tour.png */,
+				220F33DC148EFCA9007745F0 /* current-stop.png */,
+				220F33DD148EFCA9007745F0 /* Default.png */,
+				220F33DE148EFCA9007745F0 /* headerIcon.png */,
+				220F33DF148EFCA9007745F0 /* list-ui */,
+				220F33E7148EFCA9007745F0 /* ListControl-MediaButtons.png */,
+				220F33E8148EFCA9007745F0 /* new-stop.png */,
+				220F33E9148EFCA9007745F0 /* tour-store.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		220F33D3148EFCA9007745F0 /* bottom */ = {
+			isa = PBXGroup;
+			children = (
+				220F33D4148EFCA9007745F0 /* home.png */,
+				220F33D5148EFCA9007745F0 /* my-tours.png */,
+				220F33D6148EFCA9007745F0 /* search.png */,
+				220F33D7148EFCA9007745F0 /* settings.png */,
+			);
+			path = bottom;
+			sourceTree = "<group>";
+		};
+		220F33D8148EFCA9007745F0 /* camera-mic */ = {
+			isa = PBXGroup;
+			children = (
+				220F33D9148EFCA9007745F0 /* camera.png */,
+				220F33DA148EFCA9007745F0 /* mic.png */,
+			);
+			path = "camera-mic";
+			sourceTree = "<group>";
+		};
+		220F33DF148EFCA9007745F0 /* list-ui */ = {
+			isa = PBXGroup;
+			children = (
+				220F33E0148EFCA9007745F0 /* add.png */,
+				220F33E1148EFCA9007745F0 /* arrow-down.png */,
+				220F33E2148EFCA9007745F0 /* arrow-up.png */,
+				220F33E3148EFCA9007745F0 /* check-dark.png */,
+				220F33E4148EFCA9007745F0 /* check-green.png */,
+				220F33E5148EFCA9007745F0 /* x-dark.png */,
+				220F33E6148EFCA9007745F0 /* x-red.png */,
+			);
+			path = "list-ui";
+			sourceTree = "<group>";
+		};
 		D9721D24148DA9A100576422 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +297,7 @@
 				D9848733148DB2E4006C4630 /* SettingsViewController.h */,
 				D9848734148DB2EC006C4630 /* StopViewController.h */,
 				D9848735148DB2F4006C4630 /* TourHomeViewController.h */,
+				220F33D2148EFCA9007745F0 /* images */,
 				D9D1832B148DA94C007683DD /* View */,
 			);
 			sourceTree = "<group>";
@@ -330,6 +422,26 @@
 				D9848746148DB304006C4630 /* StopViewController.xib in Resources */,
 				D9848747148DB304006C4630 /* TourHomeViewController.xib in Resources */,
 				D9848761148DBB66006C4630 /* MainWindow.xib in Resources */,
+				220F33EA148EFCA9007745F0 /* home.png in Resources */,
+				220F33EB148EFCA9007745F0 /* my-tours.png in Resources */,
+				220F33EC148EFCA9007745F0 /* search.png in Resources */,
+				220F33ED148EFCA9007745F0 /* settings.png in Resources */,
+				220F33EE148EFCA9007745F0 /* camera.png in Resources */,
+				220F33EF148EFCA9007745F0 /* mic.png in Resources */,
+				220F33F0148EFCA9007745F0 /* create-tour.png in Resources */,
+				220F33F1148EFCA9007745F0 /* current-stop.png in Resources */,
+				220F33F2148EFCA9007745F0 /* Default.png in Resources */,
+				220F33F3148EFCA9007745F0 /* headerIcon.png in Resources */,
+				220F33F4148EFCA9007745F0 /* add.png in Resources */,
+				220F33F5148EFCA9007745F0 /* arrow-down.png in Resources */,
+				220F33F6148EFCA9007745F0 /* arrow-up.png in Resources */,
+				220F33F7148EFCA9007745F0 /* check-dark.png in Resources */,
+				220F33F8148EFCA9007745F0 /* check-green.png in Resources */,
+				220F33F9148EFCA9007745F0 /* x-dark.png in Resources */,
+				220F33FA148EFCA9007745F0 /* x-red.png in Resources */,
+				220F33FB148EFCA9007745F0 /* ListControl-MediaButtons.png in Resources */,
+				220F33FC148EFCA9007745F0 /* new-stop.png in Resources */,
+				220F33FD148EFCA9007745F0 /* tour-store.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -43,8 +43,6 @@
     
     IBOutlet UIView         *   stopPreviewViewContainer;
     
-    
-    
     CategoryTableViewController     *   categoryPickerTableView;
     UITableViewController           *   ageRatingTableView;
 
